@@ -1,2 +1,2 @@
 # Responsible Portfolio
-[https://preethiashok.netlify.app/]
+https://preethiashok.netlify.app/
