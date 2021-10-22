@@ -5,9 +5,9 @@
     --header-height:3rem ;
 
     /*========== Colors ==========*/
-   --hue-color:250;
+   --hue-color:230;
     --first-color:hsl(250, 69%, 61%) ;
-    --first-color-second:hsl(250 , 69%, 61%) ;
+    --first-color-second:hsl(230 , 69%, 61%) ;
     --first-color-alt:hsl(230 ,57% , 53%)  ;
     --first-color-lighter:hsl250 ,92% , 85%) ;
     --title-color: hsl(230,8% , 15% ) ;
