@@ -1,4 +1,4 @@
-/*==================== MENU SHOW Y HIDDEN ====================*/
+/*==================== MENU  ====================*/
 const navMenu = document.getElementById('nav-menu'),
         navToggle = document.getElementById('nav-toggle'),
         navClose = document.getElementById('nav-close'),
@@ -6,7 +6,7 @@ const navMenu = document.getElementById('nav-menu'),
 
 
 /*===== MENU SHOW =====*/
-/* Validate if constant exists */
+
 
 if(navToggle){
     navToggle.addEventListener('click' ,() =>{
@@ -15,7 +15,7 @@ if(navToggle){
 }
 
 /*===== MENU HIDDEN =====*/
-/* Validate if constant exists */
+
 if(navClose){
     navClose.addEventListener('click' ,() =>{
         navMenu.classList.remove('show-menu');
@@ -29,7 +29,7 @@ function linkAction(){
 }
 navLink.forEach(n => n.addEventListener('click' , linkAction));
 
-/*==================== ACCORDION SKILLS ====================*/
+/*==================== SKILLS ====================*/
 const skillsContent = document.getElementsByClassName('skills__content'),
       skillsHeader = document.querySelectorAll('.skills__header')
 
@@ -49,16 +49,7 @@ skillsHeader.forEach( (el) =>{
     el.addEventListener('click' , toggleSkills )
 })
 
-/*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
 
-/*==================== CHANGE BACKGROUND HEADER ====================*/ 
-
-
-/*==================== SHOW SCROLL UP ====================*/ 
-function scrollTop(){
-    const scrollTop =  document.getElementById('scroll-top');
-    if(this.scrollY >= 560) scrollTop.classList.add('show-scroll');
-}
 
 /*==================== DARK LIGHT THEME ====================*/ 
 
