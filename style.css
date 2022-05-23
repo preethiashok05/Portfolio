@@ -461,9 +461,16 @@ img{
 .skills__react{
     width: 85%;
 }
-.skills__python{
-    width: 100%;
+.skills__mongodb{
+    width: 80%;
 }
+.skills__express{
+    width: 80%;
+}
+.skills__node{
+    width: 80%;
+}
+
 
 .skills__close .skills__list{
     height: 0;
